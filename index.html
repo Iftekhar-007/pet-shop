@@ -40,7 +40,7 @@
             <nav class="container mx-auto flex justify-between items-center py-3 lg:py-9">
                 <div class="logo justify-self-start lg:flex lg:items-center lg:justify-start">
                     <div class="logo-img">
-                        <img src="./c1-assets/logo-header.png" alt="">
+                        <img src="./c1-assets/logo-header.png" alt="" class="animate-bounce">
                     </div>
     
                     <div class="logo-content hidden lg:inline-block lg:text-2xl lg:font-normal">
@@ -83,13 +83,13 @@
 
          <!-- banner part html starts -->
 
-           <div class="banner container mx-auto lg:h-2/5 relative lg:mb-36">
+           <div class="banner container mx-auto lg:h-2/5 relative lg:mb-[100px]">
                 
-               <div class="banner-content absolute lg:p-0 lg:mt-20">
-                <h1 class="adlam text-2xl leading-7 pl-7 pt-5 mb-2 lg:pl-0 lg:pt-0 lg:text-6xl lg:leading-tight font-normal lg:mb-4">Pamper Your Pet, <br> Because They Deserve <br> the Best</h1>
-                <p class="mb-2 lg:mb-6 sora text-sm pl-7 lg:pl-0 lg:text-xl font-light lg:leading-9 w-[20rem] lg:w-[42rem]">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+               <div class="banner-content absolute lg:p-0 lg:mt-24">
+                <h1 class="adlam text-2xl leading-7 pl-7 pt-4 mb-2 lg:pl-0 lg:pt-0 lg:text-6xl lg:leading-tight font-normal lg:mb-4">Pamper Your Pet, <br> Because They Deserve <br> the Best</h1>
+                <p class="mb-3 lg:mb-6 sora text-sm pl-7 lg:pl-0 lg:text-xl font-light lg:leading-9 w-[20rem] lg:w-[42rem]">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
                 <div class="banner-button pl-7 lg:pl-0">
-                    <button class="btn btn-warning lg:text-xl font-normal px-4 lg:px-6">Find a Pet</button>
+                    <button class="btn btn-warning lg:text-xl font-normal px-4 lg:px-6 animate-bounce">Find a Pet</button>
                 </div>
                </div>
 
@@ -103,6 +103,108 @@
     </header>
 
     <main>
+
+       <!-- browse by category part start -->
+
+       <div class="browse container mx-auto mb-14 lg:mb-32 mt-14 lg:mt-0 px-5 lg:px-0">
+        <h1 class="adlam text-2xl text-[#000000] lg:text-4xl font-normal mb-8 lg:mb-12">Browse by Categories</h1>
+
+        <div class="browse-cards grid grid-cols-2 lg:grid-cols-6 gap-6">
+            <!-- card1 -->
+
+            <div class="card bg-base-100 shadow-xl bg-[#F9DF8A]">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="./c1-assets/dog-cartoon.png"
+                    alt="cats"
+                    class="rounded-full p-7 bg-[#ffffff]"/>
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Dog</h2>
+                  <p>3 items</p>
+                </div>
+            </div>
+            <!-- card 1 -->
+
+            <!-- card 2 -->
+            <div class="card bg-base-100 shadow-xl bg-[#F9DF8A]">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="./c1-assets/fish-cartoon.png"
+                    alt="cats"
+                    class="rounded-full p-7 bg-[#ffffff]"/>
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Fish</h2>
+                  <p>3 items</p>
+                </div>
+              </div>
+            <!-- card 2 -->
+
+            <!-- card 3 -->
+
+            <div class="card bg-base-100 shadow-xl bg-[#F9DF8A]">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="./c1-assets/cat-cartoon.png"
+                    alt="cats"
+                    class="rounded-full p-7 bg-[#ffffff]"/>
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Cats</h2>
+                  <p>3 items</p>
+                </div>
+              </div>
+            <!-- card 3 -->
+
+            <!-- card 4 -->
+            <div class="card bg-base-100 shadow-xl bg-[#F9DF8A]">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="./c1-assets/bird-cartoon.png"
+                    alt="cats"
+                    class="rounded-full p-7 bg-[#ffffff]"/>
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Birds</h2>
+                  <p>3 items</p>
+                </div>
+              </div>
+            <!-- card 4 -->
+
+            <!-- card 5 -->
+            <div class="card bg-base-100 shadow-xl bg-[#F9DF8A]">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="./c1-assets/mouse-cartoon.png"
+                    alt="cats"
+                    class="rounded-full p-7 bg-[#ffffff]"/>
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Small Pet</h2>
+                  <p>3 items</p>
+                </div>
+              </div>
+            <!-- card 5 -->
+
+            <!-- cartd 6 -->
+            <div class="card bg-base-100 shadow-xl bg-[#F9DF8A]">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="./c1-assets/rabbit-cartoon.png"
+                    alt="cats"
+                    class="rounded-full p-7 bg-[#ffffff]"/>
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Rabbit</h2>
+                  <p>3 items</p>
+                </div>
+              </div>
+            <!-- card 6 -->
+        </div>
+       </div>
+       <!-- browse by category part ends -->
+
 
     </main>
 
