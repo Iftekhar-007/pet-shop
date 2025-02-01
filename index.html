@@ -377,22 +377,37 @@
 
 
        <!-- everyday low price  -->
-            <div class="everyday container mx-auto mb-14 lg:mb-36">
+            <div class="everyday container mx-auto mb-14 lg:mb-36 px-5 lg:px-0">
               <h1 class="adlam text-2xl lg:text-4xl text-[#000000] font-normal mb-6 lg:mb-12">Everyday Low Price</h1>
 
-              <div class="everyday-cards">
+              <div class="everyday-cards grid grid-cols-1 grid-rows-2 lg:grid-cols-3 lg:grid-rows-1 lg:gap-6 relative">
                 <!-- card-1 -->
-                <div class="card bg-base-100 shadow-xl bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD]">
-                  <div class="card-body">
-                      <p class="sora hidden lg:block">Under Price</p>
-                      <h2 class="card-title">Card title!</h2>
-                      <p class="sora">If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card bg-base-100 bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] shadow-xl col-span-2 mb-5 lg:mb-0">
+                  <div class="card-body p-0 flex items-stretch lg:flex-row lg:items-center lg:justify-between">
+                    <div class="everyday-card-content pt-10 pl-10 lg:pt-0 lg:pl-20">
+                      <p class="sora hidden lg:block lg:text-xl font-normal text-[#000000]">Under Price</p>
+                      <h2 class="card-title adlam lg:text-4xl font-normal text-[#000000]">Pet Grooming Mitt</h2>
+                      <p class="adlam hidden lg:block lg:text-2xl font-normal text-[#ffffff]">(Easy Hair Removal)</p>
+                      <h3 class="adlam lg:text-[3.5rem] font-normal text-[#000000]">$7.99</h3>
+                    </div>
                     <div class="card-actions justify-end">
                       <img src="./c1-assets/cute-dog-mid.png" alt="">
                     </div>
                   </div>
                 </div>
                 <!-- card-1 -->
+
+                <!-- card 2 -->
+                <div class="card bg-base-100 bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] shadow-xl">
+                  <div class="card-body p-0">
+                    <h2 class="card-title adlam lg:text-4xl font-normal text-[#000000] pt-10 pl-10 lg:pt-10 lg:pl-10">T-Shirt for Dogs</h2>
+                    <h3 class="adlam lg:text-[3.5rem] font-normal text-[#FFDC26] pl-10 lg:pl-10">$7.99</h3>
+                    <div class="card-actions justify-end">
+                      <img src="./c1-assets/cute-pet-mid.png" alt="">
+                    </div>
+                  </div>
+                </div>
+                <!-- card 2 -->
               </div>
             </div>
        <!-- everyday low price -->
@@ -401,7 +416,66 @@
     </main>
 
     <footer>
+        <div class="footer-container">
+          <div class="footer-card container mx-auto">
+            <div class="card card-side bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+                  alt="Movie" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">New movie is released!</h2>
+                <p>Click the button to watch on Jetflix app.</p>
+                <div class="card-actions justify-end">
+                  <button class="btn btn-primary">Watch</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div class="footer-content">
+            <footer class="footer bg-base-200 text-base-content absolute">
+              <nav>
+                <h6 class="footer-title">Services</h6>
+                <a class="link link-hover">Branding</a>
+                <a class="link link-hover">Design</a>
+                <a class="link link-hover">Marketing</a>
+                <a class="link link-hover">Advertisement</a>
+              </nav>
+              <nav>
+                <h6 class="footer-title">Company</h6>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Contact</a>
+                <a class="link link-hover">Jobs</a>
+                <a class="link link-hover">Press kit</a>
+              </nav>
+              <nav>
+                <h6 class="footer-title">Legal</h6>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+              </nav>
+              <form>
+                <h6 class="footer-title">Newsletter</h6>
+                <fieldset class="form-control w-80">
+                  <label class="label">
+                    <span class="label-text">Enter your email address</span>
+                  </label>
+                  <div class="join">
+                    <input
+                      type="text"
+                      placeholder="username@site.com"
+                      class="input input-bordered join-item" />
+                    <button class="btn btn-primary join-item">Subscribe</button>
+                  </div>
+                </fieldset>
+              </form>
+            </footer>
+          </div>
+
+
+        </div>
     </footer>
 
 
